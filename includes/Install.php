@@ -15,4 +15,9 @@ class Install
 			wp_insert_post($page);
 		}
 	}
+
+	public static function addPostIDVar($vars) {
+		$vars[] = "post_id";
+		return $vars;
+	}
 }

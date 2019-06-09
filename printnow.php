@@ -12,4 +12,5 @@ require 'includes/Install.php';
 require 'includes/PrintPage.php';
 
 add_action('activated_plugin', 'Install::createPrintPage');
+add_filter('query_vars', 'Install::addPostIDVar');
 add_filter('page_template', 'PrintPage::setTheTemplate');

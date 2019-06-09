@@ -1,3 +1,6 @@
+@font-face{font-family:'Parastoo';src:url('./fonts/Parastoo.woff') format('woff'),url('./fonts/Parastoo.ttf') format('truetype');}
+@font-face{font-family:'ParastooB';src:url('./fonts/Parastoo-Bold.woff') format('woff'),url('./fonts/Parastoo-Bold.ttf') format('truetype');}
+
 body{
 	direction: rtl;
 	text-align: right;
@@ -5,4 +8,13 @@ body{
 .container{
 	width: 900px;
 	margin: 50px auto 0 auto;
+}
+h1{
+	font-family: 'ParastooB';
+	font-size: 24px;
+}
+.postContent{
+	font-family: 'Parastoo';
+	font-size: 17px;
+	text-align: justify;
 }

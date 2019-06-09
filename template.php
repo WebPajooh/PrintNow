@@ -3,7 +3,7 @@
 $postID = get_query_var('post_id');
 $post = get_post($postID);
 
-if (! $post) {
+if (! $post->post_content) {
 	wp_redirect(home_url(), 301);
 	exit;
 }

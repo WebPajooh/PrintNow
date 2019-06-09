@@ -1,0 +1,8 @@
+body{
+	direction: rtl;
+	text-align: right;
+}
+.container{
+	width: 900px;
+	margin: 50px auto 0 auto;
+}

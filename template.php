@@ -13,7 +13,8 @@ if (! $post) {
 <html>
 <head>
 	<title><?php echo $post->post_title; ?> - نسخه چاپی</title>
-</head>
+	<link rel="stylesheet" type="text/css" href="<?php echo PLUGIN_URL; ?>/assets/print.css">
+ </head>
 <body>
 	<div class="container">
 		<article id="post">

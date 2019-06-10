@@ -22,7 +22,7 @@ if (! $post->post_content) {
 				<?php bloginfo('title'); ?>
 			</div>
 			<div class="headerLeft">
-				<?php echo $post->post_date; ?>
+				<?php echo formatDate($post->post_date); ?>
 			</div>
 		</div>
 		<article id="post">

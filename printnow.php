@@ -8,6 +8,7 @@ Author URI: http://webpajooh.github.io/WebPajooh
 */
 
 require 'config.php';
+require 'includes/helpers.php';
 require 'includes/Install.php';
 require 'includes/PrintPage.php';
 

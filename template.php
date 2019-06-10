@@ -35,6 +35,7 @@ if (! $post->post_content) {
 
 	<script>
 		window.print();
+		window.close();
 	</script>
 </body>
 </html>

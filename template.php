@@ -32,5 +32,9 @@ if (! $post->post_content) {
 			</div>
 		</article>
 	</div>
+
+	<script>
+		window.print();
+	</script>
 </body>
 </html>

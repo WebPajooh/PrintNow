@@ -12,7 +12,7 @@ if (! $post->post_content) {
 <!DOCTYPE html>
 <html>
 <head>
-	<title><?php echo $post->post_title; ?> - نسخه چاپی</title>
+	<title>نسخه چاپی</title>
 	<link rel="stylesheet" type="text/css" href="<?php echo PLUGIN_URL; ?>/assets/print.css">
  </head>
 <body>

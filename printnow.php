@@ -9,9 +9,9 @@ Author URI: http://webpajooh.github.io/WebPajooh
 
 require 'config.php';
 require 'includes/helpers.php';
-require 'includes/Install.php';
+require 'includes/Plugin.php';
 require 'includes/PrintPage.php';
 
-add_action('activated_plugin', 'Install::createPrintPage');
-add_filter('query_vars', 'Install::addPostIDVar');
+add_action('activated_plugin', 'Plugin::createPrintPage');
+add_filter('query_vars', 'Plugin::addPostIDVar');
 add_filter('page_template', 'PrintPage::setTheTemplate');

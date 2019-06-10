@@ -1,6 +1,6 @@
 <?php
 
-class Install
+class Plugin
 {
 	public static function createPrintPage()
 	{

@@ -13,10 +13,10 @@ class PrintWidget extends WP_Widget
 			return;
 		}
 
-		$printLink = "'" . get_bloginfo('home') . '/print?post_id=' . get_the_id() . "'";
+		$printLink = get_bloginfo('home') . '/print?post_id=' . get_the_id();
 
 		echo '<div id="sidebarPrintNowWidget">
-			<button onclick="window.open(' . $printLink . ')">Print!</button>
+			<button onclick="window.open(' . withQuotes($printLink) . ')">Print!</button>
 		</div>';
 	}
 

@@ -17,6 +17,14 @@ if (! $post->post_content) {
  </head>
 <body>
 	<div class="container">
+		<div class="header">
+			<div class="headerRight">
+				<?php bloginfo('title'); ?>
+			</div>
+			<div class="headerLeft">
+				<?php echo $post->post_date; ?>
+			</div>
+		</div>
 		<article id="post">
 			<h1><?php echo $post->post_title; ?></h1>
 			<div class="postContent">

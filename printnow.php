@@ -2,7 +2,7 @@
 /*
 Plugin Name: PrintNow
 Description: Wordpress Print Plugin
-Version: 0.0.1
+Version: 1.0.0
 Author: WebPajooh
 Author URI: http://webpajooh.github.io/WebPajooh
 */
